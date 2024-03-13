@@ -1,0 +1,32 @@
+{
+    "editor.snippetSuggestions": "none",
+    "go.lintTool": "golint",
+    "go.toolsGopath": "/home/luojie/.gvm/pkgsets/go1.22.0/global",
+    "go.gopath": "/home/luojie/.gvm/pkgsets/go1.22.0/global",
+    "go.goroot": "/home/luojie/.gvm/gos/go1.22.0",
+    "go.useLanguageServer": true,
+    "terminal.integrated.shellIntegration.enabled": true,
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash",
+            "args": [
+                "-l",
+                "${workspaceFolder}/.vscode/.bash/.bashrc"
+            ]
+        }
+    },
+    "[go]": {
+        "editor.defaultFormatter": "golang.go",
+        "editor.formatOnSave": true,
+        "editor.snippetSuggestions": "top"
+    },
+    "[go.mod]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+    },
+    "gopls": {
+        "usePlaceholders": true,
+        "staticcheck": false
+    }
+}
